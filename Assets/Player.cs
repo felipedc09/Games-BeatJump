@@ -8,12 +8,12 @@ public class Player : MonoBehaviour
     [SerializeField]
     float bpm; //bpm 
 
-    float speed;
+    [HideInInspector]
+    public float speed;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
-        
+        speed = bpm / 60;
     }
 
     // Update is called once per frame
