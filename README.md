@@ -1,4 +1,4 @@
-# Games-BeatJump
+# beat-jump
 Plataform sound game
 
 # Description
